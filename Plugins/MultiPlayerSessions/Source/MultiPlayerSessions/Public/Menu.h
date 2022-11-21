@@ -34,4 +34,6 @@ private:
 
 	UFUNCTION()
 	void JoinButtonClicked();
+
+	class UMultiplayerSessionsSubsystem* MultiplayerSessionsSubsystem;
 };
