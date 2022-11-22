@@ -23,6 +23,9 @@ protected:
 
 	// ? instead of OnLevelRemovedFromWorld
 	virtual void NativeDestruct() override;
+
+	UFUNCTION()
+	void OnCreateSession(bool bWasSuccessful);
 	
 private:
 
